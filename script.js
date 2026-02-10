@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.project-card');
 
-    const observerOptions = {
-        threshold: 0.1
-    };
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -12,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 entry.target.style.transform = 'translateY(0)';
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.1 });
 
     cards.forEach(card => {
         card.style.opacity = '0';
-        card.style.transform = 'translateY(20px)';
-        card.style.transition = 'all 0.6s ease-out';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'all 0.8s ease-out';
         observer.observe(card);
     });
 });
