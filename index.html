@@ -10,7 +10,7 @@
 <body>
 
     <nav>
-        <div class="logo">Emily Lundgren<span></span></div>
+        <div class="logo">Emily Lundgren<span>.</span></div>
         <ul>
             <li><a href="#om-mig">Om mig</a></li>
             <li><a href="#projekt">Projekt</a></li>
@@ -21,7 +21,7 @@
     <header id="om-mig" class="hero">
         <div class="hero-content">
             <h1>MARKETING AUTOMATION STUDENT</h1>
-            <p>PARIS/STOCKHOLM</p>
+            <p>PARIS / STOCKHOLM</p>
         </div>
     </header>
 
@@ -31,35 +31,50 @@
             
             <div class="project-card">
                 <div class="project-image">
-                    <img src="project1.jpg" alt="Beskrivning av mitt välkomstflöde">
+                    <img src="project1.jpg" alt="PRIX Workshop">
                 </div>
                 <div class="project-info">
-                    <h3>Brand Platform:PRIX WORKSHOP</h3>
+                    <h3>Brand Platform: PRIX WORKSHOP</h3>
                     <p>SWOT analysis and campaign proposal for the clothing brand PRIX.</p>
                     <span class="tag">CANVA</span>
+                    <button class="read-more-btn" onclick="openModal('modal1')">Read More</button>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="project-image" style="background-color: #d8d2c2;"></div>
+                <div class="project-image">
+                    <img src="project2.jpg" alt="Marketing Tech Stack">
+                </div>
                 <div class="project-info">
-                    <h3>Marketing Tech Stach Proposal-PRIX</h3>
-                    <p> Implementation plan, risk assessment, and Zapier mockup. </p>
-                    <span class="tag">Zapier / MailChimp / HubSpot  </span>
+                    <h3>Marketing Tech Stack: PRIX</h3>
+                    <p>Implementation plan, risk assessment, and Zapier mockup.</p>
+                    <span class="tag">Zapier / MailChimp / HubSpot</span>
+                    <button class="read-more-btn" onclick="openModal('modal2')">Read More</button>
                 </div>
             </div>
 
             <div class="project-card">
-                <div class="project-image" style="background-color: #ece9e4;"></div>
+                <div class="project-image">
+                    <img src="project3.jpg" alt="Wordpress Website">
+                </div>
                 <div class="project-info">
-                    <h3>Wordpress Website-CapeUp</h3>
+                    <h3>Wordpress Website: CapeUp</h3>
                     <p>A WordPress-built website for a gig work service.</p>
-                    <span class="tag">wordpress</span>
+                    <span class="tag">WordPress</span>
+                    <button class="read-more-btn" onclick="openModal('modal3')">Read More</button>
                 </div>
             </div>
 
         </div>
     </main>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
 
     <footer id="kontakt">
         <p>Vill du prata automation? <a href="mailto:din@mail.se">Kontakta mig här</a></p>

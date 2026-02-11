@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const projectData = {
     modal1: {
         title: "Brand Platform: PRIX WORKSHOP",
-        description: "Här kan du skriva en längre text om projektet. Till exempel om hur du genomförde SWOT-analysen, vilka slutsatser du drog och hur kampanjförslaget togs emot. Du kan använda <br> för radbryten."
+        description: "In this project I conducted a comprehensive brand and digital strategy analysis for the streetwear brand PRIX Workshop.Här kan du skriva en längre text om projektet. Till exempel om hur du genomförde SWOT-analysen, vilka slutsatser du drog och hur kampanjförslaget togs emot. Du kan använda <br> för radbryten."
     },
     modal2: {
         title: "Marketing Tech Stack: PRIX",
