@@ -26,7 +26,7 @@ const projectData = {
         description: "In this project I conducted a comprehensive brand and digital strategy analysis for the streetwear brand PRIX Workshop.Här kan du skriva en längre text om projektet. Till exempel om hur du genomförde SWOT-analysen, vilka slutsatser du drog och hur kampanjförslaget togs emot. Du kan använda <br> för radbryten."
     },
     modal2: {
-        title: "Marketing Tech Stack: PRIX",
+        title: "Marketing Tech Stack Proposal: PRIX",
         description: "Beskriv hur du byggde stacken. Vilka verktyg valdes och varför? Här kan du förklara fördelarna med att koppla HubSpot till Zapier och hur det effektiviserade arbetet."
     },
     modal3: {
